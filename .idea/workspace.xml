@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0cc61c2-0664-4e4f-8393-7475640b7403" name="Changes" comment="drugi commit">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/static/polls/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/templates/polls/question_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/templates/polls/question_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
+    <list default="true" id="b0cc61c2-0664-4e4f-8393-7475640b7403" name="Changes" comment="www4">
+      <change afterPath="$PROJECT_DIR$/projekcik/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/polls/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/polls/question_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/polls/question_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/polls/question_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/polls/question_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekcik/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/projekcik/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projekcik/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projekcik/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,10 +25,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
-        <option value="HTML File" />
         <option value="SCSS File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -69,6 +68,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/polls/static/polls" />
     </key>
   </component>
@@ -110,7 +110,10 @@
       <workItem from="1663841495872" duration="27000" />
       <workItem from="1664192114520" duration="1177000" />
       <workItem from="1664795618707" duration="486000" />
-      <workItem from="1664796375098" duration="5510000" />
+      <workItem from="1664796375098" duration="6179000" />
+      <workItem from="1665127537917" duration="629000" />
+      <workItem from="1665399946689" duration="722000" />
+      <workItem from="1666524912465" duration="656000" />
     </task>
     <task id="LOCAL-00001" summary="pierwszy commi5">
       <created>1663588126168</created>
@@ -133,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664192127500</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="www4">
+      <created>1664802052775</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664802052776</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +163,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pierwszy commi5" />
     <MESSAGE value="drugi commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="drugi commit" />
+    <MESSAGE value="www4" />
+    <option name="LAST_COMMIT_MESSAGE" value="www4" />
   </component>
 </project>
