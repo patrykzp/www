@@ -5,7 +5,7 @@
     <title>test</title>
 </head>
 <body>
-    <a href="/polls">pytania</a>
+    <a href="{% url 'polls:question_list' %}">pytania</a>
     <br>
     {% if user.is_authenticated %}
         Witaj {{ user }}!

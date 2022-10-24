@@ -3,7 +3,7 @@ from django.shortcuts import render, get_object_or_404
 from .models import Question
 
 def question_list(request):
-    questions = Question.objects.all()
+    questions = Question.objects.filter(id=1)
     return render(request,'polls/question_list.html',{'questions':questions})
 # Create your views here.
 
