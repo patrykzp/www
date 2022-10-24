@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>test</title>
 </head>
 <body>
+    <a href="/polls">pytania</a>
+    <br>
+    {% if user.is_authenticated %}
+        Witaj {{ user }}!
+        {% else %}
+        Nie jeśtes zalogowany.
+
+    {% endif %}
 
 </body>
 </html>
